@@ -1,5 +1,5 @@
 :root {
-  --light: #00a838;
+  --light: #26aa61;
   --dark: #005a32;
 }
 
@@ -7,16 +7,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-h4 a{
-    color: var(--dark);
-    text-decoration: underline;
-}
-
-h4 a:hover{
-    color: var(--light);
-    text-decoration: underline;
 }
 
 
@@ -31,6 +21,54 @@ body{
     background-position: center center;
     background-attachment: fixed;
     position: relative;
+}
+.card {
+    background-color: #aafab72c !important;
+
+}
+
+.card h4 {
+    color: #1b1b1b;
+
+}
+
+.card .buttons a {
+
+    color: rgb(80, 80, 80);
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+}
+
+.striked {
+    text-decoration: line-through;
+}
+
+
+.fa-youtube {
+    color: #CD201F;
+}
+
+.fa-code {
+    color: #7F00FF;
+}
+
+.fa-globe {
+    color:rgb(51, 136, 170);
+}
+
+.demo:hover > span {
+    color: #CD201F;
+}
+
+.link:hover > span {
+    color:rgb(0, 128, 179);
+}
+
+
+.code:hover > span {
+    color:#7F00FF;
 }
 
 nav {
@@ -77,3 +115,4 @@ ul a:hover {
         justify-content: center;
         top: 0;
     }
+
