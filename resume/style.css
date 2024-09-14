@@ -21,6 +21,10 @@ html {
 /**
  * Remove the margin in all browsers (opinionated).
  */
+:root {
+  --light: #00a838;
+  --dark: #005a32;
+}
 
 body {
   margin: 0;
@@ -47,7 +51,7 @@ nav {
 ul a {
   text-align: center;
   display: inline-block;
-  color: #15572a !important;
+  color: var(--dark) !important;
   margin: 5px 25px;
   font-size: 16px;
   font-weight: 800;
@@ -55,12 +59,12 @@ ul a {
 }
 
 ul a:hover {
-  color: #00a838 !important;
+  color: var(--light) !important;
 }
 
 
 #resumeButton {
-  color: #00a838 !important
+  color: var(--light) !important
 }
 
 #nav {
