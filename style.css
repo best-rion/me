@@ -1,3 +1,7 @@
+:root {
+  --light: #00a838;
+  --dark: #15572a;
+}
 
 *{
     box-sizing: border-box;
@@ -6,12 +10,12 @@
 }
 
 h4 a{
-    color: #077a2e;
+    color: var(--dark);
     text-decoration: underline;
 }
 
 h4 a:hover{
-    color: #00aa39;
+    color: var(--light);
     text-decoration: underline;
 }
 
@@ -49,7 +53,7 @@ nav {
 ul a {
     text-align: center;
     display: inline-block;
-    color: #15572a !important;
+    color: var(--dark) !important;
     margin: 5px 25px;
     font-size: 16px;
     font-weight: 800;
@@ -57,12 +61,12 @@ ul a {
 }
 
 ul a:hover {
-    color: #00a838 !important;
+    color: var(--light) !important;
 }
 
 #projectButton {
 
-    color: #00a838 !important;
+    color: var(--light) !important;
 
 }
 
