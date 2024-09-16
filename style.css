@@ -23,18 +23,18 @@ body{
     position: relative;
 }
 .card {
-    background-color: #aafab72c !important;
+    background-color: #d8f5d82c !important;
 
 }
 
 .card h4 {
-    color: #1b1b1b;
+    color: #444444;
 
 }
 
 .card .buttons a {
 
-    color: rgb(80, 80, 80);
+    color: rgb(127, 127, 127);
     font-weight: 600;
     text-decoration: none;
     letter-spacing: 1px;
