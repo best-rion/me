@@ -28,13 +28,13 @@ body{
 }
 
 .card h4 {
-    color: #656565;
+    color: #606060;
 
 }
 
 .card .buttons a {
 
-    color: rgb(127, 127, 127);
+    color: rgb(120, 120, 120);
     font-weight: 600;
     text-decoration: none;
     letter-spacing: 1px;
