@@ -10,12 +10,13 @@
 }
 
 h5, h6 {
-
+    color: #444;
     font-weight: bold !important;
 }
 
 p {
     word-spacing: 4px;
+    color: #444;
 }
 
 body{
