@@ -63,7 +63,7 @@ body{
     color:rgb(0, 128, 179);
 }
 
-.demo:hover > span {
+.video:hover > span {
     color: #CD201F;
 }
 
