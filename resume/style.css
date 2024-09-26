@@ -72,10 +72,10 @@ ul a:hover {
 }
 
 
-#resumeButton {
+#downloadButton {
   color: #4493f8 !important
 }
-#resumeButton:hover {
+#downloadButton:hover {
   text-decoration: underline;
 }
 
