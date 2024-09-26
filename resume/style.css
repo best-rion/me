@@ -73,7 +73,10 @@ ul a:hover {
 
 
 #resumeButton {
-  color: var(--light) !important
+  color: #4493f8 !important
+}
+#resumeButton:hover {
+  text-decoration: underline;
 }
 
 #nav {
