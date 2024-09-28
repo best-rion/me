@@ -67,6 +67,11 @@ body{
     color:rgb(0, 128, 179);
 }
 
+.fa-play
+{
+  color: #4493f8;
+}
+
 .video:hover > span {
     color: #CD201F;
 }
@@ -81,6 +86,10 @@ body{
 
 .code:hover > span {
     color:#7F00FF;
+}
+
+.play:hover > span {
+    color: #4493f8;
 }
 
 nav {
