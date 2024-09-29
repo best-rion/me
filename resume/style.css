@@ -22,8 +22,8 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 :root {
-  --light: #26aa61;
-  --dark: #21834d;
+  --light: #00d55f;
+  --dark: #00b551;
 }
 
 body {
