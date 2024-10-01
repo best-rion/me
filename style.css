@@ -9,6 +9,14 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none !important;
+    color: #444 !important;
+}
+
+a:hover{
+    color: #bebebe !important;
+}
 
 body{
     height: 100vh;
@@ -29,14 +37,12 @@ body{
 
 .card h4 {
     color: #444;
-
 }
 
 .card .buttons a {
 
     color: rgb(100, 100, 100);
     font-weight: 600;
-    text-decoration: none;
     letter-spacing: 1px;
 
 }
@@ -116,7 +122,6 @@ ul a {
     margin: 5px 25px;
     font-size: 16px;
     font-weight: 800;
-    text-decoration:none;
 }
 
 ul a:hover {
