@@ -14,6 +14,10 @@ a{
     color: #444 !important;
 }
 
+.fa-link{
+  color: #bebebe !important;
+}
+
 a:hover{
     color: #bebebe !important;
 }
