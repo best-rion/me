@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>CoBot Project</title>
+</head>
+<body>
+
+     <nav>
+        <ul id="nav" class="nav">
+            <a href="https://best-rion.github.io/me/">PROJECTS</a>
+            <a href="https://best-rion.github.io/me/about">ABOUT</a>
+            <a href="https://best-rion.github.io/me/resume/">RESUME</a>
+        </ul>
+    </nav>
+
+
+<div class="container">
+
+    <!--- About --->
+
+        <div class="row px-4 pb-4 mt-5">
+
+            <div class="col-md-3"></div>
+
+
+            <div class="col-md-6">
+
+                <h1 class="text-center"><strong>Scale</strong></h1>
+
+            
+                <div class="mt-4">
+
+                    <p>
+                    Scale is a simple precision measurement software.
+                    </p>
+                    <p>
+                    During our <a href="https://best-rion.github.io/me/projects/cobot">CoBot Project</a>, Saleh was going to design arms of our robot in SolidWorks.
+                    To do that he needed dimensions of Servo motor parts. He asked me to send him dimensions of the part.
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6 my-4">
+                            <img class="img-fluid" src="images/origin1.png" alt="...">
+                        </div>
+                        <div class="col-md-6 my-4">
+                            <img class="img-fluid" src="images/origin2.png" alt="...">
+                        </div>
+
+                    </div>
+                    <p>
+                    The part was small (barely 1 inch long). I somehow managed to measure the dimensions with the help of LibreCAD(AutoCAD for Linux) and Photo of the part.
+                    </p>
+                    <div class="my-4">
+                        <img class="img-fluid" src="images/origin3.png" alt="...">
+                    </div>
+                    <p>
+                    But LibreCAD just gave me pixel positions. I had to do the calculations for length, radius and angle by myself. I searched on the internet for a Photo Measurement software but surprisingly didn't
+                    find any software for this purpose. So I decided I will make one myself. A few months before, I tried to mimic a fraction of AutoCAD, and I made <a href="https://github.com/best-rion/MiniCAD">MiniCAD</a> 
+                    with SFML/C++. That time I learned the algorithm for zoom in and zoom out without distorting proportions.
+                    I used similar concept and made this Photo Measurement software, Scale.
+                    </p>
+                    
+
+                    <br/>
+
+                    <h5>How to use it (in 6 steps):</h5>
+                    <br/>
+                    
+                    <p>
+                        <b>Step 1:</b> <a href="https://drive.google.com/drive/folders/1VV7o0hwPPrWhuUcIocWwbEvyMAl4trq7?usp=drive_link">Download</a> and unzip.
+                    </p>
+
+                    <p>
+                        <b>Step 2:</b> Take a photo of the part placed near a 1cm reference line.
+                    </p>
+                    <div class="mb-5">
+                        <img class="img-fluid" src="images/step2.jpg" alt="...">
+                    </div>
+                    
+
+                    <p>
+                        <b>Step 3:</b> Paste the image file in the same folder as the Scale.exe. Run Scale.exe. (Linux user run from terminal)
+                    </p>
+                    <div class="mb-5">
+                        <img class="img-fluid" src="images/step3.png" alt="...">
+                    </div>
+
+                    <p>
+                        <b>Step 4:</b> Type name of the image file with suffix(.png, .jpg, .jpeg).
+                    </p>
+                    <div class="mb-5">
+                        <img class="img-fluid" src="images/step4.png" alt="...">
+                    </div>
+
+
+                    <p>
+                        <b>Step 5:</b> Click the first button and draw a unit line over the 1cm reference line.
+                                        This will set the reference for unit.
+                    </p>
+                    <div class="mb-5">
+                        <img class="img-fluid" src="images/step5.png" alt="...">
+                    </div>
+
+
+
+                    <p>
+                        <b>Step 6:</b> Zoom in and out by scolling mouse.
+
+                        <ul>
+                            <li>Draw a line by connecting two endpoints.</li>
+                            <li>Draw a circle by selecting any 3 points on the curve.</li>
+                            <li>Draw an angle by simply drawing an angle.</li>
+                        </ul>
+                    </p>
+                    <div class="mb-5">
+                        <img class="img-fluid" src="images/step6.png" alt="...">
+                    </div>
+
+                </div>
+    
+            </div>
+
+            <div class="col-md-3"></div>
+
+        </div>
+
+    <!--- /About --->
+
+
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
