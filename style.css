@@ -1,0 +1,145 @@
+:root {
+  --light: #00d55f;
+  --dark: #00b551;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none !important;
+    color: #444 !important;
+}
+
+.fa-link{
+  color: #bebebe !important;
+}
+
+a:hover{
+    color: #bebebe !important;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    padding:0;
+    margin:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+}
+.card {
+    background-color: #d8f5d82c !important;
+
+}
+
+.card h4 {
+    color: #444;
+}
+
+.card .buttons a {
+
+    color: rgb(100, 100, 100);
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.card img {
+   border-radius: 4px;
+   border: 2px solid #AFDFAF;
+}
+
+.striked {
+    text-decoration: line-through;
+}
+
+
+.fa-youtube {
+    color: #CD201F;
+}
+
+
+.fa-code {
+    color: #7F00FF;
+}
+
+.fa-globe {
+    color:rgb(0, 128, 179);
+}
+
+.fa-play
+{
+  color: #4493f8;
+}
+
+.video:hover > span {
+    color: #CD201F;
+}
+
+.link:hover > span {
+    color:rgb(0, 128, 179);
+}
+
+.download:hover > span {
+  color: #1c7bd4;
+}
+
+.code:hover > span {
+    color:#7F00FF;
+}
+
+.play:hover > span {
+    color: #4493f8;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+
+.nav {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+}
+
+
+ul a {
+    text-align: center;
+    display: inline-block;
+    color: var(--dark) !important;
+    margin: 5px 25px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+ul a:hover {
+    color: var(--light) !important;
+}
+
+#projectButton {
+
+    color: #222 !important;
+
+}
+
+
+#nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        top: 0;
+    }
+

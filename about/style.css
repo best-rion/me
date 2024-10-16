@@ -1,0 +1,122 @@
+:root {
+  --light: #00d55f;
+  --dark: #00b551;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h5, h6 {
+    color: #222;
+    font-weight: bold !important;
+}
+
+p {
+    word-spacing: 4px;
+    color: #222;
+}
+
+a
+{
+  text-decoration: none !important;
+}
+
+.contact {
+
+  color:#444;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    padding:0;
+    margin:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../bg.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+
+.nav {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+}
+
+
+ul a {
+    text-align: center;
+    display: inline-block;
+    color: var(--dark) !important;
+    margin: 5px 25px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+ul a:hover {
+    color: var(--light) !important;
+}
+
+#aboutButton {
+
+    color: #222 !important;
+
+}
+
+#nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        top: 0;
+    }
+
+
+
+
+
+
+.links {
+    margin: 10px 0px;
+}
+.links a{
+    margin: 0px 30px 0px 0px;
+}
+.links i{
+    font-size: 30px;
+    color: rgb(82, 82, 82);
+    transition: all 0.2s ease;
+}
+.links i:hover{
+    cursor: pointer;
+}
+
+.links .fa-github:hover{
+    color: #1b1b1b;
+}
+ 
+.links .fa-blogger:hover{
+    color: #fc4f08;
+}
+
+.links .fa-twitter:hover{
+    color: #1da1f2;
+}
+
+.links .fa-facebook:hover{
+    color: #4267B2;
+}
