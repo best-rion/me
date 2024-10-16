@@ -65,10 +65,6 @@ body{
     color: #CD201F;
 }
 
-.fa-google-drive {
-    color: #222;
-}
-
 .fa-code {
     color: #7F00FF;
 }
@@ -91,7 +87,7 @@ body{
 }
 
 .download:hover > span {
-  color: #222;
+  color: #1594d4;
 }
 
 .code:hover > span {
