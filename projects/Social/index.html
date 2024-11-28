@@ -48,15 +48,15 @@
                     This app contains every feature of a social media app.
                     The features include - 
                     <ul>
-                        <li>Making Posts</li>
-                        <li>Connecting With Friends</li>
-                        <li>Sharing Images and Streaming Videos</li>
-                        <li>Messaging Service</li>
-                        <li>Two-Player Tic-Tac-Toe <small>(For timepassing)</small></li>
+                        <li><a href="#posts">Making Posts</a></li>
+                        <li><a href="#friends">Connecting With Friends</a></li>
+                        <li><a href="#video">Sharing Images and Streaming Videos</a></li>
+                        <li><a href="#message">Messaging Service</a></li>
+                        <li><a href="#game">Two-Player Tic-Tac-Toe</a> <small>(For timepassing)</small></li>
                     </ul>
                     </p>
                     <p>
-                        <h4>Posts</h4>
+                        <h4 id="posts">Posts</h4>
                         <p>
                         Users can create and share posts with friends. You can delete your post if you want. You can share an image or a video with each post.
                         Your friends can see you posts and like and comment on it.
@@ -68,7 +68,7 @@
                     </p>
 
                     <p>
-                        <h4>Friends</h4>
+                        <h4 id="friends">Friends</h4>
                         <p>
                         You can send friend request to any user. And accept or delete a request if someone sends you a friend request. You can cancel your sent request
                         later if you want. Once you become friend with someone, you can see their posts. This is an intentional constrain. <small>(I will work on the UI
@@ -79,7 +79,7 @@
                         </p>
                     </p>
                     <p>
-                        <h4>Video Streaming</h4>
+                        <h4 id="video">Video Streaming</h4>
                         <p>
                         I integrated a video streaming service in this project that I stole from <a href="https://github.com/best-rion/video-streaming">here</a>. It lets 
                         you play a part of video in realtime without loading the whole video. This service uses Spring WebFlux.
@@ -92,7 +92,7 @@
                     </p>
 
                     <p>
-                        <h4>Messaging</h4>
+                        <h4 id="message">Messaging</h4>
                         <p>
                         I developed this app from the basic. I read throught the documentation of Spring Boot Websocket. It was fun to learn.
                         And now that I know how it works, I can make any app that needs realtime information update, like I did with the next app - 
@@ -104,7 +104,7 @@
                         </p>
                     </p>
                     <p>
-                        <h4>Tic-Tac-Toe</h4>
+                        <h4 id="game">Tic-Tac-Toe</h4>
                         <p>
                             This app also uses Websocket. The best thing about this app is that it does not need any database. It stores
                             informations in an In-Memory storage which I created myself using mere HashMap<String, String>. The game logic and
