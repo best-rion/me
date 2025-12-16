@@ -62,7 +62,7 @@ nav {
 ul a {
     text-align: center;
     display: inline-block;
-    color: var(--dark) !important;
+    color: #222 !important;
     margin: 5px 25px;
     font-size: 16px;
     font-weight: 800;
@@ -74,7 +74,7 @@ ul a:hover {
 
 #aboutButton {
 
-    color: #222 !important;
+    color: var(--dark) !important;
 
 }
 
