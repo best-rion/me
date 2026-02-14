@@ -1,6 +1,6 @@
 :root {
-  --light: #00d55f;
-  --dark: #00b551;
+    --light: #8bc34a;
+    --dark: #555;
 }
 
 *{
@@ -9,24 +9,28 @@
     padding: 0;
 }
 
+.logo {
+    width: 160px;
+    margin-right: 40px;
+}
+
+
 h5, h6 {
-    color: #222;
+    color: var(--dark);
     font-weight: bold !important;
 }
 
 p {
     word-spacing: 4px;
-    color: #222;
+    color: var(--dark);
 }
 
-a
-{
+a {
   text-decoration: none !important;
 }
 
 .contact {
-
-  color:#444;
+  color: var(--dark);
 }
 
 body{
@@ -36,59 +40,34 @@ body{
     margin:0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../bg.jpg");
     background-position: center center;
     background-attachment: fixed;
     position: relative;
+    background-color: #eee !important;
 }
-
-nav {
-    position: relative;
-    width: 100%;
-    margin-top: 40px;
-}
-
-
 
 .nav {
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    background-color: transparent;
-    position: relative;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
 }
 
-
-ul a {
-    text-align: center;
-    display: inline-block;
-    color: #222 !important;
+.nav a {
+    color:  var(--dark) !important;
     margin: 5px 25px;
     font-size: 16px;
     font-weight: 800;
 }
 
-ul a:hover {
+.nav a:hover {
     color: var(--light) !important;
 }
 
 #aboutButton {
 
-    color: var(--dark) !important;
+    color: var(--light) !important;
 
 }
-
-#nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        top: 0;
-    }
-
-
-
-
-
 
 .links {
     margin: 10px 0px;
@@ -98,7 +77,7 @@ ul a:hover {
 }
 .links i{
     font-size: 30px;
-    color: rgb(82, 82, 82);
+    color: var(--dark);
     transition: all 0.2s ease;
 }
 .links i:hover{

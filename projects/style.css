@@ -1,13 +1,17 @@
 :root {
-    --light: #00d55f;
-    --dark: #00b551;
-  }
-  
+    --light: #8bc34a;
+    --dark: #555;
+}
   *{
       box-sizing: border-box;
       margin: 0;
       padding: 0;
   }
+
+.logo {
+    width: 160px;
+    margin-right: 40px;
+}
   
   h1{
       color: #bebebe;
@@ -19,7 +23,7 @@
   
   p {
       word-spacing: 2px;
-      color: #222;
+      color: var(--dark);
       text-align: justify;
       text-justify: inter-word;
   }
@@ -35,46 +39,25 @@
       margin:0;
       background-repeat: no-repeat;
       background-size: cover;
-      background-image: url("../bg.jpg");
       background-position: center center;
       background-attachment: fixed;
       position: relative;
+      background-color: #eee !important;
   }
-  
-  nav {
-      position: relative;
-      width: 100%;
-      margin-top: 40px;
-  }
-  
-  
-  
-  .nav {
-      padding: 0;
-      width: 100%;
-      text-align: center;
-      background-color: transparent;
-      position: relative;
-  }
-  
-  
-  ul a {
-      text-align: center;
-      display: inline-block;
-      color: #222 !important;
-      margin: 5px 25px;
-      font-size: 16px;
-      font-weight: 800;
-  }
-  
-  ul a:hover {
-      color: var(--light) !important;
-  }
-  
-  
-  #nav {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          top: 0;
-      }
+.nav {
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav a {
+    color:  var(--dark) !important;
+    margin: 5px 25px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.nav a:hover {
+    color: var(--light) !important;
+}

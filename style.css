@@ -1,6 +1,6 @@
 :root {
-  --light: #00d55f;
-  --dark: #00b551;
+    --light: #8bc34a;
+    --dark: #555;
 }
 
 *{
@@ -9,9 +9,14 @@
     padding: 0;
 }
 
+.logo {
+    width: 160px;
+    margin-right: 40px;
+}
+
 a{
     text-decoration: none !important;
-    color: #444 !important;
+    color: var(--dark) !important;
 }
 
 .fa-link{
@@ -29,18 +34,17 @@ body{
     margin:0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("bg.jpg");
     background-position: center center;
     background-attachment: fixed;
     position: relative;
+    background-color: #eee !important;
 }
 .card {
     background-color: #d8f5d82c !important;
-
 }
 
 .card h4 {
-    color: #444;
+    color:  var(--dark);
 }
 
 .card .buttons a {
@@ -53,7 +57,7 @@ body{
 
 .card img {
    border-radius: 4px;
-   border: 2px solid #AFDFAF;
+   border: 2px solid var(--light);
 }
 
 .striked {
@@ -98,45 +102,25 @@ body{
     color: #4493f8;
 }
 
-nav {
-    position: relative;
-    width: 100%;
-    margin-top: 40px;
-}
-
-
-
 .nav {
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    background-color: transparent;
-    position: relative;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
 }
 
 
-ul a {
-    text-align: center;
-    display: inline-block;
-    color: #222 !important;
+.nav a {
+    color:  var(--dark) !important;
     margin: 5px 25px;
     font-size: 16px;
     font-weight: 800;
 }
 
-ul a:hover {
+.nav a:hover {
     color: var(--light) !important;
 }
 
 #projectButton {
-    color:  var(--dark) !important;
+    color:  var(--light) !important;
 }
-
-
-#nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        top: 0;
-    }
 
